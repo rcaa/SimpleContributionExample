@@ -8,6 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		UserController uc = new UserController();
 		User u = new User("rca", "123456");
-		uc.reverseCharacters(u);
+		String pwd = uc.reverseCharacters(u);
+		System.out.println(pwd);
 	}
 }
