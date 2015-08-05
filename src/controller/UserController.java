@@ -4,6 +4,8 @@ import model.User;
 
 public class UserController {
 
+	// adding comment
+	
 	public String reverseCharacters(User user) {
 		char[] pwd = user.getPassword().toCharArray();
 		char[] pwdReverse = new char[pwd.length];
