@@ -5,7 +5,7 @@ public class Second {
 	int x;
 	
 	public void m() {
-		
+		c();
 	}
 	
 	public void c() {
