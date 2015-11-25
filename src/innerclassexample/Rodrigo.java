@@ -13,6 +13,7 @@ public class Rodrigo {
 
 		public void accessOuter() {
 			System.out.println("The outer class's password is " + password);
+			System.out.println(password);
 		}
 	}
 	
