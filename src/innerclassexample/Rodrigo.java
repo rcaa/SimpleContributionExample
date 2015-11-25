@@ -4,10 +4,10 @@ public class Rodrigo {
 
 	private String password;
 
-//	public void createInnerClass() {
-//		InnerClass inClass = new InnerClass();
-//		inClass.accessOuter();
-//	}
+	public void createInnerClass() {
+		InnerClass inClass = new InnerClass();
+		inClass.accessOuter();
+	}
 
 	class InnerClass {
 
@@ -18,5 +18,6 @@ public class Rodrigo {
 	
 	public static void main(String[] args) {
 		Rodrigo r = new Rodrigo();
+		r.createInnerClass();
 	}
 }
