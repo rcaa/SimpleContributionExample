@@ -13,6 +13,6 @@ public class UserController {
 			pwdReverse[y] = pwd[i];
 			y++;
 		}
-		return new String(pwdReverse);
+        return new String(pwdReverse);;
 	}
 }
