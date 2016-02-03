@@ -6,8 +6,8 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		List<ClasseAbstrata> classes = new ArrayList<ClasseAbstrata>();
-		ClasseAbstrata clazz = classes.get(0);
+		List<ClasseConcreta> classes = new ArrayList<ClasseConcreta>();
+		ClasseConcreta clazz = classes.get(0);
 		clazz.doPost();
 	}
 }
