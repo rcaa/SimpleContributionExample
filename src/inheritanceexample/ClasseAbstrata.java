@@ -1,7 +1,10 @@
 package inheritanceexample;
 
 
-public abstract class ClasseAbstrata {
+public class ClasseAbstrata {
 
-	public abstract void doPost() throws Exception;
+	public void doPost() throws Exception {
+
+		throw new Exception();
+	}
 }
